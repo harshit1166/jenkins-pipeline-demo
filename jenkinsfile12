@@ -1,0 +1,11 @@
+pipeline{
+  agent any
+
+  stages{
+    stage('first stage'){
+      steps{
+        echo 'hello harshit! jenkins is connected to github successfully.'
+           }
+         }
+      }
+   }
