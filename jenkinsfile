@@ -1,0 +1,12 @@
+pipeline{
+  agent any
+ stages{
+  stage('print system info'){
+    steps{
+      sh'whoami'
+      sh'df -h'
+      sh'date'
+    }
+  }
+ }
+}
